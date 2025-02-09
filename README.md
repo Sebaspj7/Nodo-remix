@@ -52,3 +52,12 @@ El componente Outlet se utiliza para renderizar las subrutas dentro de una ruta 
 
 Action:
  Una función del lado del servidor que procesa solicitudes POST, PUT, PATCH o DELETE.
+
+useLoaderData:
+Se usa para acceder a los datos proporcionados por el loader.
+
+useActionData:
+Se usa para acceder a los datos devueltos por una acción después de ejecutar un formulario.
+
+Invariant:
+función auxiliar utilizada para validar condiciones en el código. Si la condición es falsa lanza un error.
